@@ -24,9 +24,35 @@ This script takes all lines beginning with # as text-lines. All other lines are 
 
 For each text the # is removed and the “code” will get spaces prepended.
 
+## Clone
+
+```json
+git clone https://github.com/ted-dunstone/yaml2doc/
+```
+
 ## Setup
+```json
+cd ./yaml2doc
 
 pip3 install .
+```
+
+## Add to environment PATH
+
+For OSX / Linux:
+
+Add to `~/.bash_profile`
+
+```json
+yaml2doc=<INSTALLATION FOLDER>
+export yaml2doc
+```
+or
+
+```json
+yamltodoc=<INSTALLATION FOLDER>
+export yamltodoc
+```
 
 # Usage
 
